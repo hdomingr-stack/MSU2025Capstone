@@ -474,4 +474,9 @@ The Log page also uses the general Header component, giving the user access to
 the Menu button for navigation to other UI pages.<br>
 
 
+### Data
+.npy files were excluded due to their size and the limitations of Github. 
+This project uses the IMS bearing datasetthat the .npy files were generated 
+from it with IMS_preprocessing.py
+
 
