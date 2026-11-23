@@ -1,0 +1,26 @@
+# Configuration for MQTT Bridge Node
+bridge:
+  ros__parameters:
+    machine_topic: "division1/line1/machine1"
+
+# Configuration for Control Node
+admin_control:
+  ros__parameters:
+    pass: ""
+
+# Configuration for Preprocessing Node
+preprocess:
+  ros__parameters:
+    window_size: 30
+    window_stride: 5
+    default_flags: ['max','rms','std','kurtosis']
+
+# Configuration for Model Node
+model:
+  ros__parameters:
+    pass: ""
+
+# Configuration for Post-Processing Node
+post_processing:
+  ros__parameters:
+    pass: ""

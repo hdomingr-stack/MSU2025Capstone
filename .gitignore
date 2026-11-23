@@ -1,0 +1,41 @@
+
+# colcon/ROS2 build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+#Github(these are files with training data)
+*.npy
+
+# node.js modules
+mqtt_subscriber/node_modules
+
+# node.js modules
+backend/node_modules
+UI Dashboard/Next.js prototype/website-app/node_modules
+UI Dashboard/Next.js prototype/website-app/.env
+UI Dashboard/Next.js prototype/website-app/.next
+.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.user
+*~
+
+*.log
+
+# MacOS
+.DS_Store
